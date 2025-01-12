@@ -159,6 +159,7 @@ nav .right a span{
     margin-bottom: 15px;
     outline: none;
     resize: none;
+    color: var(--text-color);
   }
   
   .contact-section .group form button {
