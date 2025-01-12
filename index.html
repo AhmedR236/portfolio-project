@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+   
+    <title>Ahmed Ruposh Portfolio</title>
+
+</head>
+<body>
+
+<!--NAVIGATION BAR-->
+<nav>
+<div class = "left">
+    <a href = "/">Ahmed Ruposh</a>
+</div>
+
+<div class = "right">
+    <a href="https://github.com/AhmedR236" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>GitHub</span>
+    </a>
+    
+    <a href="https://linkedin.com/in/ahmed-ruposh" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>LinkedIn</span>
+    </a>
+   
+    <a href="mailto: ahmed.r2365@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+    </a>  
+</div>
+</nav>
+
+<main>
+    <!--About Me Section-->
+    <section class = "about-me">
+        <div class = "text">
+            <h2> About Me </h2>
+                <p>
+                    Hi, my name is Ahmed Ruposh. I am a student at Rutgers University 
+                    majoring in Computer Science and Data Science. <br>Growing up in Atlantic City, 
+                    my curiosity for technology started at a young age, 
+                    sparking a passion for exploring how <br> things work and how they can be improved. This passion has led me to pursue
+                    an intrest into data analysis, <br> and software development, 
+                    where I enjoy solving complex problems and creating impactful solutions.
+                    Feel free to check out <br> my work and do not hesitate to reach out
+                    I am always excited to connect and collaborate!</p>
+            <div class = "links">
+                <a href = "#projects">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span>Projects</span>
+                </a>
+            
+                <a href = "#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+        
+        
+        <div class = "rutgers">
+            <img src= "images portf/Rutgers new.webp" alt="rutgers logo">
+        </div>
+    </section>
+
+     <!--Projects Section-->
+     <section class = "projects-section">
+        <div class = "group">
+        <h2>Projects</h2>    
+                <P>
+                    Here are some of my projects (All of it can be found on GitHub): 
+                    <ul>
+                        <br>
+                        <li>Zakat Calculator: Is a is a tool that helps Muslims calculate the amount of Zakat (obligatory charity) 
+                            <br>they need to pay, typically 2.5% of their qualifying wealth, based on their savings, assets, and liabilities.</li>
+                            <br>
+                            <li>Global Health Analytics: Utilized the pandas and matplotlib libraries in python to gather meaningful insights.
+                                <br> I did data cleaning, and exploratory data analysis on the dataset, and moved the clean data to Excel.
+                                <br> I then used PowerBi for data visualization on my findings. 
+                    </ul>
+                </P>
+        </div>   
+        <div class = "github-image">
+        <img src="images portf/GitHub-Logo.webp" alt="" width = "550">
+    </div>
+    </section>
+
+      <!--Contact Section-->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+  
+        <div class="group">
+  
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+  
+            <label for="email">Email</label>
+            <input type="email" id="email">
+  
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+  
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+
+</main>
+</body>
+</html>
